@@ -6,6 +6,7 @@ export default defineNuxtConfig({
         // "data-bs-theme": "dark",
       },
     },
+    pageTransition: { name: "page", mode: "out-in" },
   },
   components: ["~/components/layout", "~/components"],
   css: ["~/assets/css/main.less", "~/assets/css/bootstrap.scss"],
