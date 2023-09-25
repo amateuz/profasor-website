@@ -1,5 +1,6 @@
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <ProfasorHeader />
+  <NuxtPage />
+  <LazyProfasorFooter />
 </template>
+<script setup lang="ts"></script>
